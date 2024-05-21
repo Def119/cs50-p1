@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    max-width:  600px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 25px; /* Making the corners rounded */ 
+    box-shadow: 0 0 0 0.5px #fff; /* Sub-pixel border using box-shadow */
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+    font-size: 16px;
+    color:white;
+    outline: none;
+    background-color:#202124;
+} 
+
+
+.search-bar:focus {
+    background-color: #333438;
+    color: white;
+    border-color: #333438;
+}
+
+/* Hover effect */
+.search-bar:hover {
+    background-color: #333438;
+    color: white;
+    border: none;
+    box-shadow: 0 0 0 0.5px #333438;
+    
+}
+
+.button {
+    background-color:#333438 ;
+    border:none;
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size:15px;
+    color:white;
+    border-radius:3px;
+}
+
+.button:hover {
+    /* border: 1px solid white; */
+    box-shadow: 0 0 0 0.5px #fff;
+}
+
+
+.image-container {
+    position: relative;
+    width: 500px; /* Adjust the width as needed */
+    height: 110px; /* Adjust the height as needed */
+}
+
+.image {
+    /* width:100%;
+    height:100%; */
+    object-fit: fit;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 80px;
+    left: 355px;
+    transform: translate(-50%, -50%);
+    color: blue;
+    /* font-size: 24px; */
+    /* font-weight: bold; */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); */
+     /* Optional: adds a shadow to the text for better readability */
+}
