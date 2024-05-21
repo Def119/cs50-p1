@@ -6,11 +6,14 @@
     </head>
     <body style ="background-color: #303134">
         <!-- <form action="https://www.google.com/imghp" align="right"></form> -->
-        <a href="./img.html" style="float:right">image </a>
+        <a href="./img.html" style="float:right" style="color:white">image </a>
         <a href="./index.html" style="float:right">google</a>
+        <img src="google.png" style="height:20px">
         <br>
-    <center>
-        <img src="google.png">
+        <h4 style="color:red">Advanced Search</h4>
+        <hr style="color:black ;height: 0.02em;background:#000 ">
+        find pages with..
+        
         <!-- <form action="https://www.google.com/search">
             <input type="text" name="q">
             <br>
@@ -20,12 +23,26 @@
         <form action="https://www.google.com/search">
             <div class="mb-3">
                 <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="q">
                 <br>
-                <input type="submit" value="Google Search">
+                <label for="exampleInputEmail1" class="form-label" style="color:#969ba1">all of these words</label>
+                <input type="text" name="as_q"> 
+                <br>
+                <label for="exampleInputEmail1" class="form-label" style="color:#969ba1">this exact phrase or word</label>
+                <input type="text" name="as_epq"> 
+                <br>
+                <label for="exampleInputEmail1" class="form-label" style="color:#969ba1">any of these words</label>
+                <input type="text" name="as_oq">
+                <br>
+                <label for="exampleInputEmail1" class="form-label" style="color:#969ba1">non of these words</label> 
+                <input type="text" name="as_eq"> 
+                <br>
+                <input type="submit" value="advanced Search" style="background: #8ab4f8;
+                border-color: #8ab4f8;
+                color: #202124;">
             </div>
+            
         </form>
-    </center>
+
     </body>
 </html>
 
